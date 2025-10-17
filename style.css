@@ -1,0 +1,28 @@
+body {
+  font-family: "Prompt", sans-serif;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+  border-color: darkcyan !important;
+}
+
+header {
+  box-shadow: 10px 10px 5px #e6e6e6 !important;
+  background-color: #ffffff !important;
+}
+
+.item {
+  height: 370px;
+}
+
+.item img {
+  height: 150px;
+  object-fit: contain;
+}
+
+.fa-trash:hover {
+  animation: fa-shake 2s linear;
+  -webkit-animation: fa-shake 2s linear;
+}
